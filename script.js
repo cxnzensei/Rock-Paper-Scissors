@@ -1,6 +1,6 @@
 const buttons = document.querySelectorAll('button');
 buttons.forEach((button) => {
-    button.addEventListener('click', function(e) {
+    button.addEventListener('click', () => {
         const playerSelection = button.id;
         console.log(playerSelection);
         document.getElementById("pChoice").innerHTML = playerSelection.toUpperCase();
