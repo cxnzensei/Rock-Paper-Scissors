@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+        <title>Rock Paper Scissors</title>
+    </head>
+    <body>
+        <header class="rps">
+            ROCK PAPER SCISSORS
+        </header>
+
+        <main>
+            <div id="bestFive" class="best5">First to <span style = 'color:rgba(19, 145, 86, 0.808)';>5 round wins</span> wins the game</div>
+            <div id="scoreTag" class="score">Score =><span id="score"> </span></div>
+            
+            <div class="player">
+                <p id="pChoice" class="text">YOUR CHOICE</p>
+                <div class="buttons">
+                    <button id="rock" class="rock"></button>
+                    <button id="paper" class="paper"></button>
+                    <button id="scissors" class="scissors"></button>
+                </div>
+            </div>
+            <div class="computer">
+                <p id="cChoice" class="text">COMPUTER'S CHOICE</p>
+                <div class="images">
+                    <img class="rock1" src="images/rock.png" alt="rock1">
+                    <img class="paper1" src="images/paper.png" alt="paper1">
+                    <img class="scissors1" src="images/scissors.png" alt="scissors1">
+                </div>
+            </div>
+            <div>
+                <p id="currentStatus" class="current-status">Current Round Status</p>
+            </div>
+        </main>
+
+        <footer><p>Made by <a href="https://www.github.com/cxnzensei/" target="_blank">cxnzensei</a></p></footer>
+    </body>
+</html>
